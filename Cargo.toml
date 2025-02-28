@@ -3,10 +3,11 @@ name = "mik32v2-pac"
 version = "0.0.1"
 edition = "2024"
 authors = ["Denis Bykov"]
-categories = ["embedded", "hardware-support", "no-std"]
+categories = ["embedded", "hardware-support", "no-std", "mik32"]
 description = "Peripheral access crate for the MIK32 Amur microcontrollers"
 keywords = ["riscv", "mik32", "pac"]
-# license = "GPL-3.0-only"
+repository = "https://github.com/mik32-rs/mik32v2-pac"
+license = "GPL-3.0-only"
 
 [dependencies]
 riscv = "0.12"
