@@ -984,7 +984,7 @@ impl R {
     pub fn analog_regs(&self) -> AnalogRegsR {
         AnalogRegsR::new(((self.bits >> 15) & 1) != 0)
     }
-    #[doc = "Bit 15 - Схема формирования прерываний GPIO"]
+    #[doc = "Bit 16 - Схема формирования прерываний GPIO"]
     #[inline(always)]
     pub fn gpio_irq(&self) -> GpioIrqR {
         GpioIrqR::new(((self.bits >> 16) & 1) != 0)
