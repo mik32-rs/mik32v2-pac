@@ -3268,7 +3268,7 @@ FAPB/( Div_APM_P+1)</description>
             <field>
               <name>GPIO_IRQ</name>
               <description>Схема формирования прерываний GPIO</description>
-              <bitRange>[15:15]</bitRange>
+              <bitRange>[16:16]</bitRange>
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
@@ -3808,7 +3808,7 @@ FAPB/( Div_APM_P+1)</description>
             <field>
               <name>GPIO_IRQ</name>
               <description>Схема формирования прерываний GPIO</description>
-              <bitRange>[15:15]</bitRange>
+              <bitRange>[16:16]</bitRange>
               <access>read-write</access>
               <enumeratedValues>
                 <usage>read</usage>

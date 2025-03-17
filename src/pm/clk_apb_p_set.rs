@@ -987,7 +987,7 @@ impl R {
     #[doc = "Bit 15 - Схема формирования прерываний GPIO"]
     #[inline(always)]
     pub fn gpio_irq(&self) -> GpioIrqR {
-        GpioIrqR::new(((self.bits >> 15) & 1) != 0)
+        GpioIrqR::new(((self.bits >> 16) & 1) != 0)
     }
 }
 impl W {
@@ -1074,7 +1074,7 @@ impl W {
     #[doc = "Bit 15 - Схема формирования прерываний GPIO"]
     #[inline(always)]
     pub fn gpio_irq(&mut self) -> GpioIrqW<ClkApbPSetSpec> {
-        GpioIrqW::new(self, 15)
+        GpioIrqW::new(self, 16)
     }
 }
 #[doc = "Регистр включения тактированием устройств на шине APB_P. Каждому биту соответствует одно устройство\n\nYou can [`read`](crate::Reg::read) this register and get [`clk_apb_p_set::R`](R). You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`clk_apb_p_set::W`](W). You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api)."]
