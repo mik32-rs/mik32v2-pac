@@ -27,3 +27,6 @@ critical-section = ["dep:critical-section"]
 rt = ["riscv-rt"]
 rts = ["rt", "riscv-rt/s-mode"]
 all = ["critical-section", "rts"]
+
+[dev-dependencies]
+mik32-rt ={ git = "https://github.com/mik32-rs/mik32-rt.git"}
